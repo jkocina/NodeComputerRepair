@@ -1,0 +1,113 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #2F2FA2 !important;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  margin-top:5px;
+}
+
+
+.well  {
+  margin-top:5px;
+  padding: 5px;
+  background-color: #99738E;
+}
+
+nav {
+  background-color: #F64C72 !important;
+  color: #F8F8FF !important;
+
+}
+
+.navbar-brand  {
+  color: #F8F8FF !important;
+}
+
+.jumbrotron  {
+  border: solid #553D67;
+  background-color: #553D67;
+  color
+}
+
+p  {
+  color: #F8F8FF;
+}
+
+#toggler-bone {
+  background-color: #F8F8FF;
+}
+
+h1 {
+  color: #242582;
+}
+
+h1.about  {
+  border: solid #F64C72;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #F64C72;
+  color: #242582;
+  text-shadow:2px 2px #F8F8FF;
+}
+
+h1.services  {
+  border: solid #F64C72;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #F64C72;
+  color: #242582;
+  text-shadow:2px 2px #F8F8FF;
+}
+
+h1.contact  {
+  border: solid #F64C72;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #F64C72;
+  color: #242582;
+  text-shadow:2px 2px #F8F8FF;
+}
+
+h4  {
+  color: #553D67;
+  border-bottom: solid #F8F8FF;
+}
+
+#contactDesc  {
+  border: solid #F64C72;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #F64C72;
+  color: #242582;
+}
+
+#colors
+# #242582 dark blue
+# #553D67 dark perp
+# #F64C72 red
+# #99738E light perp
+# #2F2FA2 ligher blue
+
+# #F8F8FF bone white
