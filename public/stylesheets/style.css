@@ -9,18 +9,18 @@ a {
 }
 
 .container {
-  margin-top:5px;
+  margin-top: 2rem;
 }
 
 
 .well  {
-  margin-top:5px;
-  padding: 5px;
+  margin-top: 2rem;
+  padding: 2rem;
   background-color: #99738E;
 }
 
 nav {
-  background-color: #F64C72 !important;
+  background-color: #F64C72;
   color: #F8F8FF !important;
 
 }
@@ -32,7 +32,6 @@ nav {
 .jumbrotron  {
   border: solid #553D67;
   background-color: #553D67;
-  color
 }
 
 p  {
@@ -49,11 +48,11 @@ h1 {
 
 h1.about  {
   border: solid #F64C72;
-  width: 40%;
+  width: 10rem;;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   text-align: center;
   background-color: #F64C72;
   color: #242582;
@@ -62,7 +61,7 @@ h1.about  {
 
 h1.services  {
   border: solid #F64C72;
-  width: 40%;
+  width: 10rem;;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -75,7 +74,7 @@ h1.services  {
 
 h1.contact  {
   border: solid #F64C72;
-  width: 40%;
+  width: 10rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -93,7 +92,7 @@ h4  {
 
 #contactDesc  {
   border: solid #F64C72;
-  width: 60%;
+  width: 9rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -101,6 +100,104 @@ h4  {
   text-align: center;
   background-color: #F64C72;
   color: #242582;
+}
+
+@media only screen and (max-width: 550px)  {
+
+  .container {
+    margin-top:5px;
+  }
+
+
+  .well  {
+    margin-top:5px;
+    padding: 5px;
+    background-color: #99738E;
+  }
+
+  nav {
+    background-color: #F64C72;
+    color: #F8F8FF !important;
+
+  }
+
+  .navbar-brand  {
+    color: #F8F8FF !important;
+  }
+
+  .jumbrotron  {
+    border: solid #553D67;
+    background-color: #553D67;
+  }
+
+  p  {
+    color: #F8F8FF;
+  }
+
+  #toggler-bone {
+    background-color: #F8F8FF;
+  }
+
+  h1 {
+    color: #242582;
+  }
+
+  h1.about  {
+    border: solid #F64C72;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #F64C72;
+    color: #242582;
+    text-shadow:2px 2px #F8F8FF;
+  }
+
+  h1.services  {
+    border: solid #F64C72;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #F64C72;
+    color: #242582;
+    text-shadow:2px 2px #F8F8FF;
+  }
+
+  h1.contact  {
+    border: solid #F64C72;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #F64C72;
+    color: #242582;
+    text-shadow:1px 1px #F8F8FF;
+  }
+
+  h4  {
+    color: #553D67;
+    border-bottom: solid #F8F8FF;
+  }
+
+  #contactDesc  {
+    border: solid #F64C72;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #F64C72;
+    color: #242582;
+  }
+
 }
 
 #colors
