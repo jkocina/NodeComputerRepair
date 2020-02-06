@@ -1,22 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #005086 !important;
-}
-
-a {
-  color: #00B7FF;
-}
-
-.container {
-  margin-top: 2rem;
-}
-
-
-.well  {
-  margin-top: 2rem;
-  padding: 2rem;
-  background-color: #99738E;
+  background-color: #f7d6bf !important;
 }
 
 nav {
@@ -30,8 +15,28 @@ nav {
 }
 
 .jumbrotron  {
-  border: solid #318fb5;
+  border: solid #005086;
+  background-color: #005086;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+
+.well  {
+  margin-top: 2rem;
+  padding: 2rem;
   background-color: #318fb5;
+}
+
+button {
+  background-color: #b0cac7 !important;
+
+}
+
+a {
+  color: #00B7FF;
 }
 
 p  {
@@ -43,80 +48,66 @@ p  {
 }
 
 h1 {
-  color: #242582;
+  color: #F8F8FF;
+}
+
+h4  {
+  color: #F8F8FF;
+  border-bottom: solid #F8F8FF;
 }
 
 h1.about  {
-  border: solid #F64C72;
+  border: solid #005086;
   width: 10rem;;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
-  background-color: #F64C72;
-  color: #242582;
-  text-shadow:2px 2px #F8F8FF;
+  background-color: #005086;
+  color: #F8F8FF;
 }
 
 h1.services  {
-  border: solid #F64C72;
+  border: solid #005086;
   width: 10rem;;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
-  background-color: #F64C72;
-  color: #242582;
-  text-shadow:2px 2px #F8F8FF;
+  background-color: #005086;
+  color: #F8F8FF;
 }
 
 h1.contact  {
-  border: solid #F64C72;
+  border: solid #005086;
   width: 10rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
-  background-color: #F64C72;
-  color: #242582;
-  text-shadow:1px 1px #F8F8FF;
-}
-
-h4  {
-  color: #318fb5;
-  border-bottom: solid #F8F8FF;
+  background-color: #005086;
+  color: #F8F8FF;
 }
 
 #contactDesc  {
-  border: solid #F64C72;
+  border: solid #318fb5;
   width: 30rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
-  background-color: #F64C72;
+  background-color: #318fb5;
   color: #242582;
 }
 
 @media only screen and (max-width: 550px)  {
 
-  .container {
-    margin-top:5px;
-  }
-
-
-  .well  {
-    margin-top:5px;
-    padding: 5px;
-    background-color: #99738E;
-  }
-
   nav {
-    background-color: #F64C72;
+    background-color: #001244;
     color: #F8F8FF !important;
 
   }
@@ -126,7 +117,17 @@ h4  {
   }
 
   .jumbrotron  {
-    border: solid #318fb5;
+    border: solid #005086;
+    background-color: #005086;
+  }
+
+  .container {
+    margin-top:5px;
+  }
+
+  .well  {
+    margin-top:5px;
+    padding: 5px;
     background-color: #318fb5;
   }
 
@@ -139,62 +140,60 @@ h4  {
   }
 
   h1 {
-    color: #242582;
+    color:  #F8F8FF;
   }
 
   h1.about  {
-    border: solid #F64C72;
+    border: solid #005086
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    background-color: #F64C72;
-    color: #242582;
-    text-shadow:2px 2px #F8F8FF;
+    background-color: #005086;
+    color:  #F8F8FF;
+
   }
 
   h1.services  {
-    border: solid #F64C72;
+    border: solid #005086;
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    background-color: #F64C72;
-    color: #242582;
-    text-shadow:2px 2px #F8F8FF;
+    background-color: #005086;
+    color: #F8F8FF;
   }
 
   h1.contact  {
-    border: solid #F64C72;
+    border: solid #005086;
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    background-color: #F64C72;
-    color: #242582;
-    text-shadow:1px 1px #F8F8FF;
+    background-color: #005086;
+    color: #F8F8FF;
   }
 
   h4  {
-    color: #318fb5;
+    color: #F8F8FF;
     border-bottom: solid #F8F8FF;
   }
 
   #contactDesc  {
-    border: solid #F64C72;
+    border: solid #318fb5;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    background-color: #F64C72;
+    background-color: #318fb5;
     color: #242582;
   }
 

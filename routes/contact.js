@@ -50,7 +50,7 @@ router.post('/send', function(req, res, next) {
     from: 'us.business.intel@gmail.com',
     subject: 'Thanks for your message ' + req.body.name,
     text: 'This site is a site meant to demonstrate skills learned in a node JS environment. If you would like to read my blog, with links to other portfolio projects, please visit https://www.jacobkocina.com',
-    html: '<h4>Like Tech?</h4><p>This site is a demonstartion of an application created with:</p><ul><li>node.js</li><li>exress.js</li><li>git</li><li>gulp</li><li>pug</li><li>bootstrap</li></ul><p>To read my blog and link to more projects goto https://www.jacobkocina.com</p>'
+    html: '<h4>Like Tech?</h4><p>This site is a demonstration of an application created with:</p><ul><li>node.js</li><li>exress.js</li><li>git</li><li>gulp</li><li>pug</li><li>bootstrap</li></ul><p>To read my blog and link to more projects goto https://www.jacobkocina.com</p>'
     /*
     templateId: 'd-0f43a939ab074cb08620a32c4a40c6d6',
     dynamic_template_data: {
