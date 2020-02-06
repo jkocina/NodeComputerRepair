@@ -104,6 +104,10 @@ h1.contact  {
   color: #242582;
 }
 
+img#jumboImage  {
+  margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 550px)  {
 
   nav {
@@ -204,4 +208,8 @@ footer  {
   border: solid #001244;
   width: 100%;
   text-align: center;
+}
+
+img#jumboImage  {
+  margin-bottom: 2rem;
 }
