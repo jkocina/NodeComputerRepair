@@ -1,7 +1,8 @@
 body {
-  padding: 50px;
+
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #f7d6bf !important;
+  padding-top: 4.5rem;
 }
 
 nav {
@@ -17,12 +18,9 @@ nav {
 .jumbrotron  {
   border: solid #005086;
   background-color: #005086;
-}
+  padding:2rem;
 
-.container {
-  margin-top: 2rem;
 }
-
 
 .well  {
   margin-top: 2rem;
@@ -41,6 +39,7 @@ a {
 
 p  {
   color: #F8F8FF;
+
 }
 
 #toggler-bone {
@@ -99,9 +98,11 @@ h1.contact  {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
   background-color: #318fb5;
   color: #242582;
+  padding:.5rem;
+
 }
 
 img#jumboImage  {
@@ -113,7 +114,10 @@ img#jumboImage  {
   nav {
     background-color: #001244;
     color: #F8F8FF !important;
+  }
 
+  .navbar-toggle.collapsed .icon:before {
+    content: '\f00d';
   }
 
   .navbar-brand  {
@@ -125,18 +129,15 @@ img#jumboImage  {
     background-color: #005086;
   }
 
-  .container {
-    margin-top:5px;
-  }
-
   .well  {
     margin-top:5px;
-    padding: 5px;
+    padding: 2rem;
     background-color: #318fb5;
   }
 
   p  {
     color: #F8F8FF;
+
   }
 
   #toggler-bone {
@@ -196,9 +197,10 @@ img#jumboImage  {
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
     background-color: #318fb5;
     color: #242582;
+
   }
 
 }
