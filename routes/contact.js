@@ -52,7 +52,7 @@ router.post('/send', function(req, res, next) {
     to: toField,
     from: 'us.business.intel@gmail.com',
     subject: 'Thanks for your message ' + req.body.name,
-    text: 'This site is a site meant to demonstrate skills learned in a node JS environment. If you would like to read my blog, with links to other portfolio projects, please visit https://www.jacobkocina.com'
+    text: 'This site demonstrates responsive design and css breakpoints. If you would like to read my blog, with links to other portfolio projects, please visit https://www.jacobkocina.com'
     //html: ''
     /* this is id referencing a template created in the send grid portal in heroku
     templateId: 'd-0f43a939ab074cb08620a32c4a40c6d6',
