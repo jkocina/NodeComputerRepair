@@ -18,7 +18,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
     "request": "^2.88.2",
